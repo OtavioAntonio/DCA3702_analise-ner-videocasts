@@ -1,75 +1,46 @@
-# Análise de Videocasts: Extração de Entidades e Redes de Coocorrência
-
-Este projeto utiliza Processamento de Linguagem Natural (NLP) para processar transcrições de videocasts (como o Lex Fridman Podcast) e mapear as relações entre as entidades mencionadas (Pessoas, Organizações e Locais). O objetivo final é gerar um grafo de rede que possa ser analisado em ferramentas como o Gephi.
+# Análise de Co-ocorrência com NER em Videocasts
+Este projeto aplica técnicas de Processamento de Linguagem Natural (NLP) para analisar transcrições de videocasts e identificar relações entre entidades nomeadas (pessoas, organizações e locais), gerando grafos de co-ocorrência para análise em ferramentas como Gephi.
 
 ## Sobre o Projeto
 O script principal processa arquivos CSV contendo transcrições de entrevistas com figuras como Donald Trump, Elon Musk, Javier Milei, Mark Cuban e outros. Ele identifica quando duas entidades aparecem próximas no texto e cria uma conexão (aresta) entre elas, permitindo visualizar a estrutura do discurso e as conexões de temas.
 
-## Principais Tecnologias
-
-- Python 3.12+
-- spaCy: Extração de Entidades Nomeadas (NER) usando o modelo pt_core_news_lg.
-- NetworkX: Construção e manipulação do grafo de rede.
-- Pandas: Manipulação e limpeza de dados das transcrições.
+## Funcionalidades
+* **Extração de Entidades (NER):** Utiliza a biblioteca `spaCy` (modelo en_core_web_md) para identificar entidades relevantes nos textos.
+* **Segmentação Adaptativa:** Processamento flexível por sentenças ou janelas de texto (k-caracteres), permitindo diferentes níveis de granularidade na análise.
+* **Integração com GitHub:** O notebook pode carregar automaticamente os arquivos CSV diretamente do repositório para execução no Colab.
+* **Geração de Grafos:** Exportação de arquivos `.gexf` prontos para visualização e análise de redes no **Gephi**.
 
 ## Estrutura do Repositório
-Seguindo as boas práticas de organização, o projeto está dividido assim:
+* `data/`: Contém as transcrições originais em formato `.csv`.
+* `notebooks/`: Notebook principal para execução no Google Colab.
+* `output/`: Arquivos de grafos gerados para análise.
 
-```text
-projeto-videocasts/
-├── data/
-│   ├── raw/                # Ficheiros .csv originais
-│   └── processed/          # Ficheiro .gdf gerado
-├── src/
-│   └── main.py             # Código principal
-├── .gitignore              # Ficheiros ignorados pelo Git
-├── README.md               # Documentação
-└── requirements.txt        # Dependências do projeto
-```
+## Tecnologias Utilizadas
+* **Python 3.12+**
+* **Pandas:** Manipulação de dados.
+* **spaCy:** Processamento de Linguagem Natural.
+* **NetworkX:** Construção e manipulação de estruturas de grafos.
+* **RegEx:** Segmentação de texto avançada.
 
 ## Como Executar
+1. Abra o notebook no Google Colab:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OtavioAntonio/DCA3702_analise-ner-videocasts/blob/main/notebooks/analise_ner.ipynb)
 
-### Preparação do Ambiente
-Clone o repositório e instale as dependências:
+2. Certifique-se de configurar as variáveis no início do código:
+   - `COLUNA_TEXTO`: Escolha o número da coluna que está o texto a ser analisado.
+   - `MODO_SEGMENTACAO`: Escolha entre `sentenca`, ~~`paragrafo`~~ ou `k-caracteres`, para variar o modo de análise.
+   - `CATEGORIAS_ALVO`: Escolha as relações que serão alvo da pesquisa `['PERSON', "ORG", "GPE"]`. Nesse caso será analisado a relação entre pessoas, organizações e países.
+   - `MIN_PESO_GEPHI`: Escolha o valor minimo de relações que devem aparecer nos textos para que o valor seja apresentado no resultado final (Grafo).
+   - `K_VALOR`: Escolha o total de caracteres a serem analisados no modo `k-caracteres`.
 
-### Instalar bibliotecas
-pip install -r requirements.txt
+3. Execute a célula para processar os arquivos da pasta `/data` e gerar o arquivo de grafo final.
 
-### Baixar o modelo de linguagem do spaCy
-python -m spacy download pt_core_news_lg
+## Visualização
+Após a execução, o arquivo `grafo_segmentacao.gexf` será gerado. 
 
-### Configuração de Dados
-Coloque as suas transcrições em formato .csv dentro da pasta data/raw/. O script está configurado para ler arquivos com os IDs das entrevistas (ex: qCbfTN-caFI.csv).
-
-### Execução
-No script main.py, você pode ajustar o Modo de Segmentação:
-
-sentenca: Analisa conexões dentro da mesma frase.
-
-~~paragrafo: Analisa conexões dentro do mesmo bloco de texto.~~
-
-k-caracteres: Analisa conexões em janelas móveis de texto (ex: a cada 250 caracteres).
-
-Peso Mínimo: Definido para ignorar conexões raras, garantindo que o grafo mostre apenas as relações mais fortes (ex: entidades que aparecem juntas pelo menos 3 vezes).
-
-Categorias Alvo: O projeto foca em PERSON (Pessoas), ORG (Organizações) e GPE (Países/Cidades).
-
-### Execute com:
-
-Bash
-python src/main.py
-
-## Resultados e Visualização
-Após a execução, um arquivo chamado grafo_entidades.gdf será gerado na pasta data/processed/.
-
-### Como visualizar no Gephi:
-Abra o Gephi.
-
-Vá em Arquivo > Abrir e selecione o arquivo .gdf.
-
-No painel "Laboratório de Dados", você verá os nós (entidades) e as arestas (conexões).
-
-Aplique algoritmos de layout como Force Atlas 2 ou Fruchterman Reingold para visualizar a rede.
+Para visualizar:
+1. Baixe o arquivo gerado na pasta `Arquivos` do Google Colab.
+2. Abra no [Gephi](https://gephi.org/).
 
 ## Licença
-Este projeto foi desenvolvido para fins acadêmicos na disciplina de Inteligência Artificial.
+O projeto foi desenvolvido como parte da disciplina **DCA3702 - Algoritmos e Estrutura de Dados II**
