@@ -124,7 +124,7 @@ python transcricoes.py
     - ``meus_arquivos`` (lista com os arquivos .csv)
 
 2. Abra o notebook no Google Colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OtavioAntonio/DCA3702_analise-ner-videocasts/blob/main/notebooks/analise_ner.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OtavioAntonio/DCA3702_analise-ner-videocasts/blob/main/scripts/analise_ner.ipynb)
 
 3. Certifique-se de configurar as variáveis no início do código:
     - `COLUNA_TEXTO`: Escolha o número da coluna que está o texto a ser analisado.
