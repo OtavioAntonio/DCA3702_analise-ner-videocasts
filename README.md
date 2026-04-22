@@ -55,9 +55,7 @@ A execução do projeto resultou na geração de grafos de co-ocorrência que ev
 
 Abaixo está um exemplo de grafo gerado a partir das análises:
 
-```md
 ![Grafo de Co-ocorrência](./assets/grafo.png)
-```
 
 
 ## Análise e Discussão
