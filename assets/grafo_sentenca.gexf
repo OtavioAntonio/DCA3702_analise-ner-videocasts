@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-04-22">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Russia" label="Russia">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Ukraine" label="Ukraine">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Putin" label="Putin">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="the United States" label="the United States">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="NATO" label="NATO">
+        <attvalues>
+          <attvalue for="0" value="ORG" />
+        </attvalues>
+      </node>
+      <node id="Trump" label="Trump">
+        <attvalues>
+          <attvalue for="0" value="ORG" />
+        </attvalues>
+      </node>
+      <node id="Zelenskyy" label="Zelenskyy">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="China" label="China">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Ayn Rand" label="Ayn Rand">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Milton Friedman" label="Milton Friedman">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Russia" target="Ukraine" id="0" weight="33" />
+      <edge source="Russia" target="the United States" id="1" weight="13" />
+      <edge source="Russia" target="NATO" id="2" weight="16" />
+      <edge source="Russia" target="China" id="3" weight="16" />
+      <edge source="Ukraine" target="Putin" id="4" weight="8" />
+      <edge source="Ukraine" target="the United States" id="5" weight="10" />
+      <edge source="Ukraine" target="NATO" id="6" weight="16" />
+      <edge source="Putin" target="Trump" id="7" weight="7" />
+      <edge source="Putin" target="Zelenskyy" id="8" weight="10" />
+      <edge source="the United States" target="China" id="9" weight="11" />
+      <edge source="Ayn Rand" target="Milton Friedman" id="10" weight="7" />
+    </edges>
+  </graph>
+</gexf>
