@@ -23,6 +23,11 @@
           <attvalue for="0" value="PERSON" />
         </attvalues>
       </node>
+      <node id="Volodymyr Zelenskyy" label="Volodymyr Zelenskyy">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
       <node id="the United States" label="the United States">
         <attvalues>
           <attvalue for="0" value="GPE" />
@@ -48,6 +53,16 @@
           <attvalue for="0" value="GPE" />
         </attvalues>
       </node>
+      <node id="Afghanistan" label="Afghanistan">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Iraq" label="Iraq">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
       <node id="Ayn Rand" label="Ayn Rand">
         <attvalues>
           <attvalue for="0" value="PERSON" />
@@ -58,19 +73,78 @@
           <attvalue for="0" value="PERSON" />
         </attvalues>
       </node>
+      <node id="Jennifer" label="Jennifer">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Lex" label="Lex">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Harvard" label="Harvard">
+        <attvalues>
+          <attvalue for="0" value="ORG" />
+        </attvalues>
+      </node>
+      <node id="Yale" label="Yale">
+        <attvalues>
+          <attvalue for="0" value="ORG" />
+        </attvalues>
+      </node>
+      <node id="U.S." label="U.S.">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="the United States of America" label="the United States of America">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Biden" label="Biden">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Bernie" label="Bernie">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Obama" label="Obama">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
     </nodes>
     <edges>
       <edge source="Russia" target="Ukraine" id="0" weight="33" />
       <edge source="Russia" target="the United States" id="1" weight="13" />
       <edge source="Russia" target="NATO" id="2" weight="16" />
-      <edge source="Russia" target="China" id="3" weight="16" />
-      <edge source="Ukraine" target="Putin" id="4" weight="8" />
-      <edge source="Ukraine" target="the United States" id="5" weight="10" />
-      <edge source="Ukraine" target="NATO" id="6" weight="16" />
-      <edge source="Putin" target="Trump" id="7" weight="7" />
-      <edge source="Putin" target="Zelenskyy" id="8" weight="10" />
-      <edge source="the United States" target="China" id="9" weight="11" />
-      <edge source="Ayn Rand" target="Milton Friedman" id="10" weight="7" />
+      <edge source="Russia" target="Putin" id="3" weight="5" />
+      <edge source="Russia" target="China" id="4" weight="16" />
+      <edge source="Ukraine" target="Putin" id="5" weight="8" />
+      <edge source="Ukraine" target="Volodymyr Zelenskyy" id="6" weight="4" />
+      <edge source="Ukraine" target="the United States" id="7" weight="10" />
+      <edge source="Ukraine" target="NATO" id="8" weight="16" />
+      <edge source="Ukraine" target="Trump" id="9" weight="4" />
+      <edge source="Ukraine" target="Zelenskyy" id="10" weight="4" />
+      <edge source="Putin" target="Trump" id="11" weight="7" />
+      <edge source="Putin" target="Zelenskyy" id="12" weight="10" />
+      <edge source="Putin" target="NATO" id="13" weight="4" />
+      <edge source="the United States" target="NATO" id="14" weight="4" />
+      <edge source="the United States" target="China" id="15" weight="11" />
+      <edge source="Trump" target="Biden" id="16" weight="4" />
+      <edge source="Afghanistan" target="Iraq" id="17" weight="5" />
+      <edge source="Ayn Rand" target="Milton Friedman" id="18" weight="7" />
+      <edge source="Jennifer" target="Lex" id="19" weight="5" />
+      <edge source="Harvard" target="Yale" id="20" weight="4" />
+      <edge source="U.S." target="the United States of America" id="21" weight="5" />
+      <edge source="Biden" target="Bernie" id="22" weight="6" />
+      <edge source="Biden" target="Obama" id="23" weight="4" />
+      <edge source="Bernie" target="Obama" id="24" weight="4" />
     </edges>
   </graph>
 </gexf>

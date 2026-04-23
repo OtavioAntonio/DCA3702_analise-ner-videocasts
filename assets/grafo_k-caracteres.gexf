@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-04-23">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Donald Trump" label="Donald Trump">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Trump" label="Trump">
+        <attvalues>
+          <attvalue for="0" value="ORG" />
+        </attvalues>
+      </node>
+      <node id="Russia" label="Russia">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Ukraine" label="Ukraine">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Putin" label="Putin">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Volodymyr Zelenskyy" label="Volodymyr Zelenskyy">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Kyiv" label="Kyiv">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="the United States" label="the United States">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Zelenskyy" label="Zelenskyy">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="NATO" label="NATO">
+        <attvalues>
+          <attvalue for="0" value="ORG" />
+        </attvalues>
+      </node>
+      <node id="Crimea" label="Crimea">
+        <attvalues>
+          <attvalue for="0" value="ORG" />
+        </attvalues>
+      </node>
+      <node id="Minsk" label="Minsk">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="America" label="America">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="the United States of America" label="the United States of America">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="China" label="China">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="US" label="US">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Afghanistan" label="Afghanistan">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Iraq" label="Iraq">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Biden" label="Biden">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Kamala Harris" label="Kamala Harris">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Ayn Rand" label="Ayn Rand">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Milton Friedman" label="Milton Friedman">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Friedman" label="Friedman">
+        <attvalues>
+          <attvalue for="0" value="ORG" />
+        </attvalues>
+      </node>
+      <node id="Rand" label="Rand">
+        <attvalues>
+          <attvalue for="0" value="ORG" />
+        </attvalues>
+      </node>
+      <node id="Keynes" label="Keynes">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Anna Schwartz" label="Anna Schwartz">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Chicago" label="Chicago">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="the Federal Reserve" label="the Federal Reserve">
+        <attvalues>
+          <attvalue for="0" value="ORG" />
+        </attvalues>
+      </node>
+      <node id="Jennifer" label="Jennifer">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Lex" label="Lex">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Frank Knight" label="Frank Knight">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Hayek" label="Hayek">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Harvard" label="Harvard">
+        <attvalues>
+          <attvalue for="0" value="ORG" />
+        </attvalues>
+      </node>
+      <node id="Yale" label="Yale">
+        <attvalues>
+          <attvalue for="0" value="ORG" />
+        </attvalues>
+      </node>
+      <node id="Bretton Woods" label="Bretton Woods">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Nathaniel Branden" label="Nathaniel Branden">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Argentina" label="Argentina">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="U.S." label="U.S.">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+      <node id="Joe Biden" label="Joe Biden">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Bernie" label="Bernie">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Obama" label="Obama">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+        </attvalues>
+      </node>
+      <node id="Hamas" label="Hamas">
+        <attvalues>
+          <attvalue for="0" value="ORG" />
+        </attvalues>
+      </node>
+      <node id="Israel" label="Israel">
+        <attvalues>
+          <attvalue for="0" value="GPE" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Donald Trump" target="Trump" id="0" weight="5" />
+      <edge source="Trump" target="Putin" id="1" weight="8" />
+      <edge source="Trump" target="Ukraine" id="2" weight="5" />
+      <edge source="Trump" target="Biden" id="3" weight="4" />
+      <edge source="Russia" target="Ukraine" id="4" weight="42" />
+      <edge source="Russia" target="the United States" id="5" weight="15" />
+      <edge source="Russia" target="Zelenskyy" id="6" weight="4" />
+      <edge source="Russia" target="NATO" id="7" weight="14" />
+      <edge source="Russia" target="Putin" id="8" weight="16" />
+      <edge source="Russia" target="America" id="9" weight="4" />
+      <edge source="Russia" target="China" id="10" weight="20" />
+      <edge source="Russia" target="U.S." id="11" weight="4" />
+      <edge source="Ukraine" target="Putin" id="12" weight="29" />
+      <edge source="Ukraine" target="Volodymyr Zelenskyy" id="13" weight="5" />
+      <edge source="Ukraine" target="Kyiv" id="14" weight="4" />
+      <edge source="Ukraine" target="the United States" id="15" weight="15" />
+      <edge source="Ukraine" target="Zelenskyy" id="16" weight="13" />
+      <edge source="Ukraine" target="NATO" id="17" weight="14" />
+      <edge source="Ukraine" target="Crimea" id="18" weight="5" />
+      <edge source="Ukraine" target="Minsk" id="19" weight="4" />
+      <edge source="Ukraine" target="China" id="20" weight="6" />
+      <edge source="Ukraine" target="US" id="21" weight="7" />
+      <edge source="Putin" target="Zelenskyy" id="22" weight="10" />
+      <edge source="Putin" target="NATO" id="23" weight="10" />
+      <edge source="Putin" target="the United States" id="24" weight="8" />
+      <edge source="the United States" target="NATO" id="25" weight="8" />
+      <edge source="the United States" target="the United States of America" id="26" weight="7" />
+      <edge source="the United States" target="China" id="27" weight="14" />
+      <edge source="the United States" target="America" id="28" weight="4" />
+      <edge source="the United States" target="Milton Friedman" id="29" weight="4" />
+      <edge source="the United States" target="Friedman" id="30" weight="8" />
+      <edge source="the United States" target="Argentina" id="31" weight="4" />
+      <edge source="the United States" target="U.S." id="32" weight="5" />
+      <edge source="the United States of America" target="U.S." id="33" weight="5" />
+      <edge source="China" target="U.S." id="34" weight="4" />
+      <edge source="US" target="Friedman" id="35" weight="4" />
+      <edge source="Afghanistan" target="Iraq" id="36" weight="6" />
+      <edge source="Iraq" target="U.S." id="37" weight="4" />
+      <edge source="Biden" target="Kamala Harris" id="38" weight="6" />
+      <edge source="Biden" target="Joe Biden" id="39" weight="4" />
+      <edge source="Biden" target="Bernie" id="40" weight="7" />
+      <edge source="Biden" target="Obama" id="41" weight="5" />
+      <edge source="Ayn Rand" target="Milton Friedman" id="42" weight="7" />
+      <edge source="Ayn Rand" target="Friedman" id="43" weight="4" />
+      <edge source="Ayn Rand" target="Nathaniel Branden" id="44" weight="6" />
+      <edge source="Milton Friedman" target="Friedman" id="45" weight="6" />
+      <edge source="Milton Friedman" target="Lex" id="46" weight="5" />
+      <edge source="Milton Friedman" target="Frank Knight" id="47" weight="4" />
+      <edge source="Friedman" target="Rand" id="48" weight="7" />
+      <edge source="Friedman" target="Keynes" id="49" weight="5" />
+      <edge source="Friedman" target="Anna Schwartz" id="50" weight="4" />
+      <edge source="Friedman" target="Chicago" id="51" weight="6" />
+      <edge source="Friedman" target="the Federal Reserve" id="52" weight="4" />
+      <edge source="Friedman" target="Frank Knight" id="53" weight="6" />
+      <edge source="Friedman" target="Hayek" id="54" weight="6" />
+      <edge source="Friedman" target="Bretton Woods" id="55" weight="4" />
+      <edge source="Jennifer" target="Lex" id="56" weight="5" />
+      <edge source="Harvard" target="Yale" id="57" weight="5" />
+      <edge source="Bernie" target="Obama" id="58" weight="4" />
+      <edge source="Hamas" target="Israel" id="59" weight="7" />
+    </edges>
+  </graph>
+</gexf>
