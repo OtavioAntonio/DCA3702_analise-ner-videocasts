@@ -3,7 +3,8 @@
 ## Desenvolvido por:
 Otavio Antonio da Silva Junior
 
-
+## Apresentação do projeto
+[https://loom.com/share/folder/19a1b528f9004c58b9dba84897d3c570]
 
 ## Introdução
 
@@ -55,7 +56,7 @@ A execução do projeto resultou na geração de grafos de co-ocorrência que ev
 
 Abaixo está um exemplo de grafo gerado a partir das análises:
 
-![Grafo de Co-ocorrência](./assets/grafo.png)
+![Grafo de Co-ocorrência](./assets/grafo_sentenca.png)
 
 
 ## Análise e Discussão
